@@ -23,7 +23,7 @@ spec:
           clusterType: "ocp4"
           ocpCatalog:
             source: redhat-operators
-            channel: "4.6"
+            channel: "stable"
             name: elasticsearch-operator
   syncPolicy:
     automated:
